@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "generate-api-types": "sta -p http://localhost:8080/v3/api-docs -o ./typings/__generated__/ --no-client",
+    "preview": "nuxt preview",
+    "lint": "eslint --ext .ts,.vue .",
+    "lint:fix": "eslint --fix --ext .ts,.vue .",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.3-27540667.2886dfd",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "nuxt": "3.0.0-rc.3",
+    "swagger-typescript-api": "^9.3.1",
+    "typescript": "^4.6.4",
+    "vite-plugin-eslint": "^1.6.0",
+    "vitest": "^0.12.6",
+    "nitropack": "https://github.com/jarvainen/nitro/releases/download/user_defined_presets/nitropack-0.4.4.tgz"
+  },
+  "dependencies": {
+    "cookie-es": "^0.5.0",
+    "http-errors": "^2.0.0",
+    "ws": "^8.6.0"
+  }
+}

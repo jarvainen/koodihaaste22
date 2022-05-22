@@ -1,0 +1,162 @@
+{
+  "alreadyVoted": null,
+  "date": "2022-05-22",
+  "restaurants": [
+    {
+      "id": "3c390ffa4333f4d730a8ea6e5f6dcb3d7643f07f9e4ec8b6dee77dbe96f6912d",
+      "name": "Antell K-Auto Tampere",
+      "openingHours": "ei lounasta",
+      "votes": 0,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": "37e3750dccb4a04a2879c99a196f943d4c4aaea7a9acda3fb5afc7e9279c89d8",
+      "name": "Ravintola Mario's Tampereen Jäähalli",
+      "openingHours": "ei lounasta",
+      "votes": 1,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": "ff44ad9b729a9b75d4c5d4714069e619deca24f647283b114388c12c8b123445",
+      "name": "Old Mates Tampere",
+      "openingHours": "ei lounasta",
+      "votes": 0,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": "7a717b559b28f00dda6a11967bc5e108c51b9ccbd74e6fb879f051d432d4c2b3",
+      "name": "Pancho Villa Tampere Hämeenkatu",
+      "openingHours": "ei lounasta",
+      "votes": 0,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": "a5aedddc906ece8d269c9f36bb024f5487f71b10a85352f04e76375aadd128f6",
+      "name": "Ravintola Borneo, Tampere",
+      "openingHours": "ei lounasta",
+      "votes": 0,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": "1000530c0591890a3438bba9b48292cd874109b71307876dde20fad22a9817b7",
+      "name": "Ravintola Steam - Holiday Inn Tampere",
+      "openingHours": "ei lounasta",
+      "votes": 0,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": "0418f5876d15aee84c0641ceb1b62b12e91a4b28642eb30d826e95dfe0d96812",
+      "name": "Friends & Brgrs Tampere",
+      "openingHours": "ei lounasta",
+      "votes": 0,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": "c9bde2cc7381000cc05c11c429c19d5c27402b4b44648bd224970eeb1f288bd4",
+      "name": "Viikinkiravintola Harald Tampere",
+      "openingHours": "ei lounasta",
+      "votes": 0,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": "1761f05592823953577c65e542024e6086f9f4ec0ebd80e4474cd480c10d2f3a",
+      "name": "Living Room Tampere",
+      "openingHours": "ei lounasta",
+      "votes": 0,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": "de2e392cd35eadaf87777b4af1d1cde01f9d6f270821a8d3384950d8f490f286",
+      "name": "Aussie Bar Tampere",
+      "openingHours": "ei lounasta",
+      "votes": 0,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": "9cbafc21174eb6c415e717e6dd33350c31882956dca01ec3d89a6b2796f91e3d",
+      "name": "Sodexo Tampereen Oikeustalo",
+      "openingHours": "ei lounasta",
+      "votes": 0,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": "b5b5e924ebd6a967a45346f395d72208716fab553c810704399e831f1eadc6b6",
+      "name": "Tampereen Kiito-Baari",
+      "openingHours": "ei lounasta",
+      "votes": 0,
+      "dishes": [
+        {
+          "name": "",
+          "price": "",
+          "attributes": []
+        }
+      ]
+    }
+  ]
+}

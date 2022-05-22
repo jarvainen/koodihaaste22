@@ -1,44 +1,25 @@
-# Solidabis koodihaaste 2022
+# Koodihaaste22
 
-Tehtävänäsi on toteuttaa lounaspaikkaäänestyssovelluksen frontend valmista APIa vasten (työkalut saat valita itse).
-Arvosteluperusteet tärkeysjärjestyksessä:
+## Palautuksen tiedot
 
- 1. Ratkaisun oikeellisuus
-    1. ravintoloiden haku paikkakuntakohtaisesti
-    2. äänen antaminen, muuttaminen ja poistaminen
-    3. äänestystulosten esittäminen reaaliajassa
- 2. Testit
- 3. Ratkaisun selkeys ja yksinkertaisuus
- 4. Käyttöliittymäratkaisut
+Kehitystyö on tehty Linuxilla. Teknologiat listattu frontendin repositoriossa. 
+E2E testeihin käytetty cypressia. Ympäristön pystyttämiseen docker ja docker-compose.
 
-Tässä repositoryssä on valmis Spring Bootilla toteutettu backend, joka toteuttaa lounaspaikkojen
-haku- ja äänestyslogiikan käyttäen Lounaat.info -palvelua.
+Yksityiskohtaisemmat tiedot löytyy frontend kansion README.md tiedostosta.
 
-Backendin ajamiseen tarvitset JDK:n (versio>=11) ja/tai Dockerin asennettuna työasemallesi.
+## Running with docker
 
-Backendin käynnistys:
+### Requirements
 
-    ./gradlew bootRun
+- docker
+- docker-compose
 
-tai Dockerilla:
+### Installation
 
-    docker run -p 8080:8080 solidabis/koodihaaste22:latest
+```bash
+docker-compose up --build
+```
 
-Tutustu API-dokumentaatioon http://localhost:8080/swagger-ui.html
+### End-to-end tests
 
-Päivä/selainkohtainen äänioikeus on toteutettu HTTP-only -cookiella.
-
-# Palautus
-
-_Forkkaa tästä repositorystä oma julkinen ratkaisureposi_ ja lähetä linkki 31.5.2022 mennessä sähköpostilla osoitteeseen
-koodihaaste@solidabis.com. Muokkaa README.md -tiedostoa siten, että siitä ilmenee vastauksen
-tarkastelua helpottavat tiedot, kuten käyttämäsi teknologiat ja muutaman lauseen kuvaus tekemistäsi
-ratkaisuista. Voit myös julkaista ratkaisusi esim. Herokuun, muista liittää linkki ja mahdolliset salasanat sähköpostiin!
-
-Backendin muuttaminen esim. autentikoinnin toteuttamiseksi on sallittua.
-
-Kerro samalla haluatko osallistua vain kilpailuun ja arvontaan, vai haluatko Solidabiksen
-ottavan yhteyttä myös työtarjouksiin liittyen. Se ei tarkoita, että sinulle lähetettäisiin roskapostia, vaan nimensä
-mukaisesti esimerkiksi kutsu työhaastatteluun. Voit halutessasi
-osallistua koodihasteeseen myös ilman, että haluat ottaa palkintoa
-vastaan tai osallistua arvontaan.
+Uncomment e2e-tests from docker compose and run `docker-compose up`
