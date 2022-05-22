@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  backend:
+    image: solidabis/koodihaaste22:latest
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.local
+    ports:
+      - "8080:8080"
+      - "18080:18080"
+  frontend:
+    image: koodihaaste22-frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.local
+    ports:
+      - "3000:3000"
+    environment:
+      NITRO_BASE_URL: http://backend:8080
+    depends_on:
+      - backend
+#  e2e-tests:
+#    image: koodihaaste22-e2e-tests
+#    build:
+#      context: ./e2e-tests
+#      dockerfile: Dockerfile.local
+#    environment:
+#      CYPRESS_baseUrl: http://frontend:3000
+#    depends_on:
+#      - frontend

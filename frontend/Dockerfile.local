@@ -1,0 +1,19 @@
+FROM node:16 AS build
+
+WORKDIR /app
+
+COPY . .
+
+RUN npm install && npm run build
+
+FROM node:16
+
+RUN mkdir -p /app
+
+WORKDIR /app
+
+COPY --from=build /app/.output ./
+
+EXPOSE 3000
+
+ENTRYPOINT ["node", "server/index.mjs"]
